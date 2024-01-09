@@ -9,6 +9,7 @@ contract PropertyManagement is ERC721Enumerable, Ownable {
         string name;
         uint256 price;
         uint256 _size;
+        uint256 quantity;
     }
 
     Property[] public properties;
