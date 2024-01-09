@@ -68,7 +68,7 @@ def deploy_oracle(w3, contract):
 
     signed_txn = w3.eth.account.sign_transaction(deploy_txn, private_key=private_key)
     print("Deploying Contract...")
-    print("Bhavya")
+   
     tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
 
     txn_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
