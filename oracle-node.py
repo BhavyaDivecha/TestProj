@@ -56,6 +56,7 @@ def compile_contract(w3):
 
     Contract = w3.eth.contract(abi=abi, bytecode=bytecode)
     print("Compile completed!")
+    print("bhavya")
     return Contract 
 
 def deploy_oracle(w3, contract):
